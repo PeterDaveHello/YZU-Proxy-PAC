@@ -1,0 +1,4 @@
+<IfModule mod_mime.c>
+	AddType application/x-ns-proxy-autoconfig .pac
+</IfModule>
+
