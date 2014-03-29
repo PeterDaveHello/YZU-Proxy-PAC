@@ -9,4 +9,12 @@ it will select a good route for your network connection, so it can:
 
 ---------
 
+We use [jscompress.com](http://jscompress.com/) to minified the proxy.pac,
+
+minified version will not appear on the git repo, and can be downloaded from:
+
+http://forum.cse.yzu.edu.tw/proxy.pac
+
+---------
+
 Issue, feedback & pull request are welcome.
