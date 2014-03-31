@@ -1,5 +1,3 @@
-//version 201402281849
-
 function FindProxyForURL(url, host) {
 
 	var dt = 'DIRECT';
