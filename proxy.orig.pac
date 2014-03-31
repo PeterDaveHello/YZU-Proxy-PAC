@@ -68,6 +68,7 @@ function FindProxyForURL(url, host) {
 		|| dnsDomainIs(host, 'dd-wrt.com')
 		|| dnsDomainIs(host, 'github.com')
 		|| dnsDomainIs(host, 'github.io')
+		|| dnsDomainIs(host, 'githubusercontent.com')
 		|| dnsDomainIs(host, 'hichannel.hinet.net')
 		)
 		return proxy3 + proxy6 + dt;
