@@ -2,3 +2,11 @@
 	AddType application/x-ns-proxy-autoconfig .pac
 </IfModule>
 
+<FilesMatch "proxy.pac">
+	Order deny,allow
+	Deny from all
+	Allow from 140.138.0.0/16
+	Allow from 192.168.0.0/16
+	Allow from 10.0.0.0/8
+	Allow from 172.16.0.0/12
+</FilesMatch>
