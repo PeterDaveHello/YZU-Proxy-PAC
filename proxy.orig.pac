@@ -60,6 +60,7 @@ function FindProxyForURL(url, host) {
 	var proxy3 = prefix + '3' + postfix;
 
 	if (dnsDomainIs(host, 'imgur.com')
+		|| dnsDomainIs(host, 'xiaomi.com')
 		|| dnsDomainIs(host, 'microsoft.com')
 		|| dnsDomainIs(host, 'cnet.com')
 		|| dnsDomainIs(host, 'kkbox.com')
