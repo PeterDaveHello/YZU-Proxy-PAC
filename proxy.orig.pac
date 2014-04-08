@@ -40,7 +40,7 @@ function FindProxyForURL(url, host) {
 		|| dnsDomainIs(host, 'ptt.cc')
 		|| dnsDomainIs(host, 'cht.tw')
 		|| dnsDomainIs(host, 'sourceforge.net')
-		|| (dnsDomainIs(host, 'hinet.net') && !dnsDomainIs(host, 'hichannel.hinet.net'))
+		|| (dnsDomainIs(host, 'hinet.net') && !dnsDomainIs(host, 'hichannel.hinet.net') && !dnsDomainIs(host, 'cpbl-hichannel.cdn.hinet.net'))
 		|| dnsDomainIs(host, 'tra.gov.tw')
 		|| dnsDomainIs(host, 'autobuy.tw')
 		|| dnsDomainIs(host, 'edu.tw')
@@ -71,6 +71,9 @@ function FindProxyForURL(url, host) {
 		|| dnsDomainIs(host, 'hichannel.hinet.net')
 		)
 		return proxy3 + proxy6 + dt;
+
+	if (dnsDomainIs(host,'cpbl-hichannel.cdn.hinet.net'))
+		return '1007.cse.yzu.edu.tw:3128;DIRECT';
 
 	var ip = dnsResolve(host);
 	if (isInNet(ip, '140.138.0.0', '255.255.0.0')
