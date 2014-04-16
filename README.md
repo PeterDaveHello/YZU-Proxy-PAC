@@ -9,7 +9,7 @@ it will select a good route for your network connection, so it can:
 
 ---------
 
-We use [jscompress.com](http://jscompress.com/) to minified the proxy.pac,
+We use [JavaScript Minifier](http://javascript-minifier.com/)([jscompress.com](http://jscompress.com/) before 4-5-2014) to minified the proxy.pac,
 
 minified version will not appear on the git repo, and can be downloaded from:
 
