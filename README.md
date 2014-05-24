@@ -4,8 +4,8 @@ Proxy Auto Config for YZU
 It's a proxy auto config for people in Yuan Ze University,
 it will select a good route for your network connection, so it can:
 
-  - Save your network traffic
-  - Speed up your network performance
+  - Save your network traffic (Traffic in the campus will be ignored)
+  - Speed up your network performance (Select a "right" proxy server will surely make your network transmission faster)
 
 ---------
 
