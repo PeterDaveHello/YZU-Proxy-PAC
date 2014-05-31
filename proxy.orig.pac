@@ -54,6 +54,8 @@ function FindProxyForURL(url, host) {
 		|| dnsDomainIs(host, 'tw.freebsd.org')
 		|| dnsDomainIs(host, 'sitetag.us')
 		|| dnsDomainIs(host, 'edgesuite.net')
+		|| dnsDomainIs(host, 'jsdelivr.net')
+		|| dnsDomainIs(host, 'cdnjs.cloudflare.com')
 		)
 		return proxy2 + proxy6 + dt;
 
