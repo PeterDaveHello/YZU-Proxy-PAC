@@ -56,6 +56,7 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'edgesuite.net')
     || dnsDomainIs(host, 'jsdelivr.net')
     || dnsDomainIs(host, 'cdnjs.cloudflare.com')
+    || dnsDomainIs(host, 'vimeo.com')
   )
     return proxy2 + proxy6 + dt;
 
