@@ -5,9 +5,9 @@ function FindProxyForURL(url, host) {
   //direct
   if (isPlainHostName(host)
     || dnsDomainIs(host, 'yzu.edu.tw') 
-    || dnsDomainIs(host, 'cse.tw')
-    || dnsDomainIs(host, 'localhost')
     || dnsDomainIs(host, 'mediafire.com') //IP limit
+    || dnsDomainIs(host, 'localhost')
+    || dnsDomainIs(host, 'cse.tw')
   )
     return dt;
 
@@ -24,11 +24,10 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'youtu.be')
     || dnsDomainIs(host, '1e100.net')
     || dnsDomainIs(host, 'appledaily.com.tw')
-    || dnsDomainIs(host, 'yam.com')
+    || dnsDomainIs(host, 'ettoday.net')
     || dnsDomainIs(host, 'ck101.com')
     || dnsDomainIs(host, 'techbang.com')
     || dnsDomainIs(host, 'pixnet.net')
-    || dnsDomainIs(host, 'ettoday.net')
     || dnsDomainIs(host, 'xuite.net')
     || dnsDomainIs(host, 'wikipedia.org')
     || dnsDomainIs(host, '24h.pchome.com.tw')
@@ -36,8 +35,12 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'ruten.com.tw')
     || dnsDomainIs(host, 'rimg.com.tw')//ruten image
     || dnsDomainIs(host, 'coolpc.com.tw')
+    || dnsDomainIs(host, 'vimeo.com')
     || dnsDomainIs(host, 'hamicloud.net')
     || dnsDomainIs(host, 'ptt.cc')
+    || dnsDomainIs(host, 'jsdelivr.net')
+    || dnsDomainIs(host, 'cdnjs.cloudflare.com')
+    || dnsDomainIs(host, 'yam.com')
     || dnsDomainIs(host, 'cht.tw')
     || dnsDomainIs(host, 'sourceforge.net')
     || (dnsDomainIs(host, 'hinet.net') && !dnsDomainIs(host, 'hichannel.hinet.net') && !dnsDomainIs(host, 'cpbl-hichannel.cdn.hinet.net'))
@@ -54,24 +57,21 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'tw.freebsd.org')
     || dnsDomainIs(host, 'sitetag.us')
     || dnsDomainIs(host, 'edgesuite.net')
-    || dnsDomainIs(host, 'jsdelivr.net')
-    || dnsDomainIs(host, 'cdnjs.cloudflare.com')
-    || dnsDomainIs(host, 'vimeo.com')
-  )
+      )
     return proxy2 + proxy6 + dt;
 
   var proxy3 = prefix + '3' + postfix;
 
   if (dnsDomainIs(host, 'imgur.com')
-    || dnsDomainIs(host, 'xiaomi.com')
-    || dnsDomainIs(host, 'microsoft.com')
-    || dnsDomainIs(host, 'cnet.com')
     || dnsDomainIs(host, 'kkbox.com')
-    || dnsDomainIs(host, 'dd-wrt.com')
+    || dnsDomainIs(host, 'microsoft.com')
     || dnsDomainIs(host, 'github.com')
     || dnsDomainIs(host, 'github.io')
     || dnsDomainIs(host, 'githubusercontent.com')
+    || dnsDomainIs(host, 'xiaomi.com')
     || dnsDomainIs(host, 'hichannel.hinet.net')
+    || dnsDomainIs(host, 'cnet.com')
+    || dnsDomainIs(host, 'dd-wrt.com')
   )
     return proxy3 + proxy6 + dt;
 
