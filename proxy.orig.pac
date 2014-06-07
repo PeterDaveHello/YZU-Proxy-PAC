@@ -57,7 +57,7 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'tw.freebsd.org')
     || dnsDomainIs(host, 'sitetag.us')
     || dnsDomainIs(host, 'edgesuite.net')
-      )
+  )
     return proxy2 + proxy6 + dt;
 
   var proxy3 = prefix + '3' + postfix;
@@ -84,7 +84,7 @@ function FindProxyForURL(url, host) {
     || isInNet(ip, '127.0.0.0', '255.0.0.0')
     || isInNet(ip, '10.0.0.0', '255.0.0.0')
     || isInNet(ip, '172.16.0.0',  '255.240.0.0') 
-    )
+  )
     return dt;
   if (isInNet(ip, '140.112.0.0', '255.240.0.0')
     || isInNet(ip, '140.128.0.0', '255.240.0.0')
@@ -108,7 +108,7 @@ function FindProxyForURL(url, host) {
     || isInNet(ip, '210.71.78.0', '255.255.255.0')
     || isInNet(ip, '210.71.118.0', '255.255.255.0')
     || isInNet(ip, '211.75.81.81', '255.255.255.255')
-    )
+  )
     return proxy2 + proxy6 + dt;
   return proxy6 + proxy3 + dt;
 }
