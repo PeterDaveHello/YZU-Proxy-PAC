@@ -73,6 +73,7 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'hichannel.hinet.net')
     || dnsDomainIs(host, 'cnet.com')
     || dnsDomainIs(host, 'dd-wrt.com')
+    || dnsDomainIs(host, 'download.documentfoundation.org')
   )
     return proxy3 + proxy6 + dt;
 
