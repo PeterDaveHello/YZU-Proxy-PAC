@@ -64,7 +64,7 @@ function FindProxyForURL(url, host) {
 
   if (dnsDomainIs(host, 'imgur.com')
     || dnsDomainIs(host, 'kkbox.com')
-    || dnsDomainIs(host, 'tw.taobao.com')
+    || dnsDomainIs(host, 'taobao.com')
     || dnsDomainIs(host, 'microsoft.com')
     || dnsDomainIs(host, 'github.com')
     || dnsDomainIs(host, 'github.io')
