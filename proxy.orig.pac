@@ -75,6 +75,7 @@ function FindProxyForURL(url, host) {
     || dnsDomainIs(host, 'cnet.com')
     || dnsDomainIs(host, 'dd-wrt.com')
     || dnsDomainIs(host, 'download.documentfoundation.org')
+    || dnsDomainIs(host, 'seagate.com')
   )
     return proxy3 + proxy6 + dt;
 
