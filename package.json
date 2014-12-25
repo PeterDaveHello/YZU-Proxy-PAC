@@ -1,0 +1,11 @@
+{
+  "name": "YZU-Proxy-PAC",
+  "description": "Proxy auto config for YZU campus network",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YZU-OSG/YZU-Proxy-PAC.git"
+  },
+  "dependencies": {
+    "jslint": ">=0.7"
+  }
+}
