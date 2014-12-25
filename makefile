@@ -1,4 +1,6 @@
 
+all: test proxy.pac
+
 proxy.pac: proxy.orig.pac
 	curl -X POST -s --data-urlencode 'input@proxy.orig.pac' http://javascript-minifier.com/raw > proxy.pac
 
