@@ -1,2 +1,4 @@
+git:
+  depth: 10
 install: npm install
 script: make test
