@@ -8,5 +8,8 @@
   "devDependencies": {
     "jslint": ">=0.7"
   },
+  "scripts": {
+    "test": "make test"
+  }
   "license": "GPL3"
 }
