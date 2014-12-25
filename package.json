@@ -7,5 +7,6 @@
   },
   "devDependencies": {
     "jslint": ">=0.7"
-  }
+  },
+  "license": "GPL3"
 }

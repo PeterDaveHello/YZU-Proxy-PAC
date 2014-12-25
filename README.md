@@ -1,4 +1,4 @@
-[![devDependency Status](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC/dev-status.svg)](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC#info=devDependencies)
+[![devDependency Status](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC/dev-status.svg)](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC#info=devDependencies) [![license](http://img.shields.io/badge/license-GPL3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 Proxy Auto Config for YZU
 =========
