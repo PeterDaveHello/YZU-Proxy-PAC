@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git://github.com/YZU-OSG/YZU-Proxy-PAC.git"
   },
-  "dependencies": {
+  "devDependencies": {
     "jslint": ">=0.7"
   }
 }
