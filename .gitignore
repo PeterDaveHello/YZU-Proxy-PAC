@@ -1,2 +1,4 @@
 proxy.pac
 node_modules/
+all
+test
