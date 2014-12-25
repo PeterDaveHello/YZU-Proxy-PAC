@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC/dev-status.svg)](https://david-dm.org/YZU-OSG/YZU-Proxy-PAC#info=devDependencies)
+
 Proxy Auto Config for YZU
 =========
 
