@@ -53,6 +53,7 @@ function FindProxyForURL(url, host) {
       || dnsDomainIs(host, 'net.tw')
       || dnsDomainIs(host, 'nchc.org.tw')
       || dnsDomainIs(host, 'twaren.net')
+      || dnsDomainIs(host, 'most.gov.tw')
       || dnsDomainIs(host, 'ati.com')
       || dnsDomainIs(host, 'amd.com')
       || dnsDomainIs(host, 'tw.freebsd.org')
