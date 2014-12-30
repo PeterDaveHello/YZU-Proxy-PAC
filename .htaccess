@@ -3,6 +3,7 @@
 </IfModule>
 
 <FilesMatch "proxy.pac">
+	ErrorDocument 403 /proxy.direct.pac
 	Order deny,allow
 	Deny from all
 	Allow from 140.138.0.0/16
