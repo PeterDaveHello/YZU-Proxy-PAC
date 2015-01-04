@@ -5,6 +5,7 @@ function FindProxyForURL(url, host) {
   //direct
   if (isPlainHostName(host)
       || dnsDomainIs(host, 'yzu.edu.tw')
+      || dnsDomainIs(host, 'most.gov.tw')   //file upload limit from most
       || dnsDomainIs(host, 'mediafire.com') //IP limit
       || dnsDomainIs(host, 'localhost')
       || dnsDomainIs(host, 'cse.tw')
@@ -53,7 +54,6 @@ function FindProxyForURL(url, host) {
       || dnsDomainIs(host, 'net.tw')
       || dnsDomainIs(host, 'nchc.org.tw')
       || dnsDomainIs(host, 'twaren.net')
-      || dnsDomainIs(host, 'most.gov.tw')
       || dnsDomainIs(host, 'ati.com')
       || dnsDomainIs(host, 'amd.com')
       || dnsDomainIs(host, 'tw.freebsd.org')
