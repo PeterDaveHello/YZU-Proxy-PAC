@@ -4,6 +4,7 @@ all: test proxy.pac
 
 proxy.pac: proxy.orig.pac
 	curl -X POST -s --data-urlencode 'input@proxy.orig.pac' http://javascript-minifier.com/raw > proxy.pac
+	sed -i 's/^/\/\*https:\/\/github.com\/YZU-OSG\/YZU-Proxy-PAC\*\//g' proxy.pac
 
 clean:
 	rm -rf proxy.pac

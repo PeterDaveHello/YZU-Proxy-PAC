@@ -22,6 +22,7 @@ http://forum.cse.yzu.edu.tw/proxy.pac
 Development environment requirement:
 
 - curl
+- GNU sed
 - GNU make
 - nodejs
 - npm
