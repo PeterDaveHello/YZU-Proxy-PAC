@@ -19,4 +19,15 @@ http://forum.cse.yzu.edu.tw/proxy.pac
 
 ---------
 
+Development environment requirement:
+
+- curl
+- GNU make
+- nodejs
+- npm
+- Internet
+- text editor
+
+---------
+
 Issue, feedback & pull request are welcome.
