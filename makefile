@@ -10,7 +10,7 @@ clean:
 	rm -rf proxy.pac
 
 test: node_modules/jslint/bin/jslint.js proxy.orig.pac
-	node_modules/jslint/bin/jslint.js proxy.orig.pac --color=ture --indent=2 --predef=isPlainHostName --predef=dnsDomainIs --predef=isInNet --predef=dnsResolve --sloppy --unparam --vars
+	node_modules/jslint/bin/jslint.js proxy.orig.pac
 	touch test
 
 node_modules/jslint/bin/jslint.js:
