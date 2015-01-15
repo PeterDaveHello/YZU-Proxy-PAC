@@ -4,7 +4,7 @@
 
 <FilesMatch "proxy.pac">
 	#ErrorDocument 403 /proxy.direct.pac
-	ErrorDocument 403 'function FindProxyForURL(url, host) {return "DIRECT";}'
+	ErrorDocument 403 'function FindProxyForURL(url, host) {return "DIRECT";}/*https://github.com/YZU-OSG/YZU-Proxy-PAC*/'
 	Order deny,allow
 	Deny from all
 	Allow from 140.138.0.0/16
