@@ -84,9 +84,9 @@ function FindProxyForURL(url, host) {
     return proxy3 + proxy6 + dt;
   }
 
-  if (dnsDomainIs(host, 'cpbl-hichannel.cdn.hinet.net')) {
+  /*if (dnsDomainIs(host, 'cpbl-hichannel.cdn.hinet.net')) {
     return '1007.cse.yzu.edu.tw:3128;DIRECT';
-  }
+  }*/
 
   var ip = dnsResolve(host);
   if (isInNet(ip, '140.138.0.0', '255.255.0.0')
