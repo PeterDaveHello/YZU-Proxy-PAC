@@ -66,6 +66,7 @@ function FindProxyForURL(url, host) {
 
   if (dnsDomainIs(host, 'imgur.com')
       || dnsDomainIs(host, 'plurk.com')
+      || dnsDomainIs(host, 'feedly.com')
       || dnsDomainIs(host, 'vimeo.com')
       || dnsDomainIs(host, 'kkbox.com')
       || dnsDomainIs(host, 'adobe.com')
