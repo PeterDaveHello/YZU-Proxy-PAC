@@ -20,6 +20,7 @@ function FindProxyForURL(url, host) {
   var proxy6 = prefix + '6' + postfix;
 
   if (dnsDomainIs(host, 'mobile01.com')
+      || dnsDomainIs(host, 'facebook.com')
       || dnsDomainIs(host, 'tw.yahoo.com')
       || dnsDomainIs(host, 'tw.news.yahoo.com')
       || dnsDomainIs(host, 'youtube.com')
