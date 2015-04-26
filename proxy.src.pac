@@ -21,6 +21,7 @@ function FindProxyForURL(url, host) {
 
   if (dnsDomainIs(host, 'mobile01.com')
       || dnsDomainIs(host, 'facebook.com')
+      || dnsDomainIs(host, 'nextmag.com.tw')
       || dnsDomainIs(host, 'tw.yahoo.com')
       || dnsDomainIs(host, 'tw.news.yahoo.com')
       || dnsDomainIs(host, 'youtube.com')
