@@ -20,7 +20,6 @@ function FindProxyForURL(url, host) {
   var proxy6 = prefix + '6' + postfix;
 
   if (dnsDomainIs(host, 'mobile01.com')
-      || dnsDomainIs(host, 'facebook.com')
       || dnsDomainIs(host, 'nextmag.com.tw')
       || dnsDomainIs(host, 'tw.yahoo.com')
       || dnsDomainIs(host, 'tw.news.yahoo.com')
@@ -67,6 +66,7 @@ function FindProxyForURL(url, host) {
   var proxy3 = prefix + '3' + postfix;
 
   if (dnsDomainIs(host, 'imgur.com')
+      || dnsDomainIs(host, 'facebook.com')
       || dnsDomainIs(host, 'plurk.com')
       || dnsDomainIs(host, 'dropbox.com')
       || dnsDomainIs(host, 'feedly.com')
