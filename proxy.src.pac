@@ -85,6 +85,7 @@ function FindProxyForURL(url, host) {
       || dnsDomainIs(host, 'koding.com')
       || dnsDomainIs(host, 'download.documentfoundation.org')
       || dnsDomainIs(host, 'seagate.com')
+      || dnsDomainIs(host, 'wikipedia.org')
       ) {
     return proxy3 + proxy6 + dt;
   }
