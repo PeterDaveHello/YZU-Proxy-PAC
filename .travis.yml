@@ -5,3 +5,4 @@ notifications:
   email:
    on_success: never
 script: make test
+sudo: false
