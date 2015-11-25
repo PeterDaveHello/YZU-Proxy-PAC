@@ -18,7 +18,7 @@ function FindProxyForURL(url, host) {
 
   var proxy2 = prefix + '2' + postfix;
   var proxy6 = prefix + '6' + postfix;
-  var proxy7 = prefix + '7' + postfix;
+  //var proxy7 = prefix + '7' + postfix;
 
   if (dnsDomainIs(host, 'mobile01.com')
       || dnsDomainIs(host, 'nextmag.com.tw')
