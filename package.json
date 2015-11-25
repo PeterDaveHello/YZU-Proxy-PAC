@@ -11,5 +11,5 @@
   "scripts": {
     "test": "make test"
   },
-  "license": "GPL3"
+  "license": "GPL-3.0"
 }
