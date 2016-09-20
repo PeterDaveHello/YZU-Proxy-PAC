@@ -4,5 +4,10 @@ git:
 notifications:
   email:
    on_success: never
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "6"
 script: make test
 sudo: false
