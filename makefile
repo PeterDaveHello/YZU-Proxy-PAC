@@ -1,6 +1,7 @@
 
+.PHONY : all
+
 all: test proxy.pac
-	@touch all
 
 proxy.pac: proxy.src.pac
 	@curl -X POST -s --data-urlencode 'input@proxy.src.pac' http://javascript-minifier.com/raw > proxy.pac
