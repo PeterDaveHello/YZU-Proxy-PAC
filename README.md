@@ -15,7 +15,7 @@ We use [JavaScript Minifier](http://javascript-minifier.com/)([jscompress.com](h
 
 minified version will not appear on the git repo, and can be downloaded from:
 
-http://forum.cse.yzu.edu.tw/proxy.pac
+http://proxy.cse.yzu.edu.tw/proxy.pac
 
 PS: To prevent causing strange problems, IP not inside Yuan Ze University will get a DIRECT connect result from:  [proxy.direct.pac](https://github.com/YZU-OSG/YZU-Proxy-PAC/raw/master/proxy.direct.pac)
 
