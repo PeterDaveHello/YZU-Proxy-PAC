@@ -8,5 +8,5 @@ node_js:
   - "0.12"
   - "4"
   - "6"
-script: make test
+script: make all
 sudo: false
