@@ -3,6 +3,8 @@
 Proxy Auto Config for YZU
 =========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/PeterDaveHello/YZU-Proxy-PAC.svg)](https://greenkeeper.io/)
+
 It's a proxy auto config for people in Yuan Ze University,
 it will select a good route for your network connection, so it can:
 
