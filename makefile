@@ -3,8 +3,8 @@
 
 all: test proxy.pac
 
-proxy.pac: proxy.src.pac
-	@curl -X POST -s --data-urlencode 'input@proxy.src.pac' http://javascript-minifier.com/raw > proxy.pac
+proxy.pac: node_modules/uglify-js/bin/uglifyjs proxy.src.pac
+	@"./node_modules/uglify-js/bin/uglifyjs" --mangle --compress if_return=true -o proxy.pac proxy.src.pac
 	@sed -i 's/^/\/\* https:\/\/github.com\/PeterDaveHello\/YZU-Proxy-PAC \*\/\n/g' proxy.pac
 
 clean:
