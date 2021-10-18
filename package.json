@@ -6,8 +6,8 @@
     "url": "git://github.com/PeterDaveHello/YZU-Proxy-PAC.git"
   },
   "devDependencies": {
-    "jslint": ">=0.7",
-    "uglify-js": "^3.1.2"
+    "jslint": "0.12.1",
+    "uglify-js": "3.14.2"
   },
   "scripts": {
     "test": "make test"
